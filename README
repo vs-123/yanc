@@ -1,0 +1,31 @@
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+|| Yet Another Network Cimulator (YANC) ||
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+
+   C port of ygr671's YANS @ https://github.com/ygr671/yet-another-network-simulator
+
+
+~=~=~=~=~=~=~=~=~=
+|| PREREQUISTES ||
+~=~=~=~=~=~=~=~=~=
+
+   o   Standard-compliant C99 Compiler
+   o   GNU Make
+
+
+~=~=~=~=~=~=~=~=~=
+|| HOW TO BUILD ||
+~=~=~=~=~=~=~=~=~=
+
+   Assuming you have the prerequisites, you may use the following make commands:
+   o   [BUILD]   make b
+   o   [RUN]     make r
+   o   [CLEAN]   make c
+
+~=~=~=~=~=~=~
+|| LICENSE ||
+~=~=~=~=~=~=~
+
+   This project is licensed under GNU Affero General Public License version 3.0 or later.
+
+   See LICENSE file for full terms or visit https://www.gnu.org/licenses/agpl-3.0.html
