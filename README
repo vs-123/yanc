@@ -2,8 +2,9 @@
 || Yet Another Network Cimulator (YANC) ||
 ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
-   C port of ygr671's YANS @ https://github.com/ygr671/yet-another-network-simulator
+   Inspired by ygr671's YANS @ https://github.com/ygr671/yet-another-network-simulator
 
+   Originally intended to be a C port, let's how this turns out.
 
 ~=~=~=~=~=~=~=~=~=
 || PREREQUISTES ||
@@ -11,7 +12,6 @@
 
    o   Standard-compliant C99 Compiler
    o   GNU Make
-
 
 ~=~=~=~=~=~=~=~=~=
 || HOW TO BUILD ||

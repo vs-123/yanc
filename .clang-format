@@ -8,13 +8,17 @@ AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: None
 
+AlignAfterOpenBracket: BlockIndent
+BinPackArguments: false
+AllowAllArgumentsOnNextLine: false
+ContinuationIndentWidth: 3
+
 BreakBeforeBraces: Custom
 BraceWrapping:
   AfterFunction: true
   AfterControlStatement: false
   AfterEnum: false
-  AfterNamespace: false
-  AfterStruct: false
+  AfterStruct: true
   AfterUnion: false
   BeforeElse: false
   BeforeCatch: false

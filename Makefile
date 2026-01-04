@@ -1,12 +1,13 @@
-CCOPTS = -std=c99 -Wall -Wextra -Wpedantic -O2
-BLD = build/
-PROJ = yanc
-SRC = $(wildcard *.c)
+CCOPTS	= -std=c99 -Wall -Wextra -Wpedantic -O2
+BLD	= build/
+PROJ	= yanc
+SRC	= $(wildcard *.c)
+INCL	= include/
 
 b:
 	@echo "BUILDING..."
 	@mkdir -p $(BLD)
-	@$(CC) $(CCOPTS) -o $(BLD)/$(PROJ) $(SRC)
+	@$(CC) $(CCOPTS) -o $(BLD)/$(PROJ) -I$(INCL) $(SRC)
 	@echo "BUILT SUCCESSFULLY!"
 
 r: b
