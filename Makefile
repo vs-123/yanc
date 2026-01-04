@@ -1,7 +1,7 @@
 CCOPTS	= -std=c99 -Wall -Wextra -Wpedantic -O2
 BLD	= build/
 PROJ	= yanc
-SRC	= $(wildcard *.c)
+SRC	= $(wildcard src/*.c)
 INCL	= include/
 
 b:

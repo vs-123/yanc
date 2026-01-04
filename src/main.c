@@ -10,7 +10,7 @@ i32 main(void)
    char *s = malloc(sizeof(char) * 16);
    
    hex_to_ip(laptop_ip.addr, s);
-   printf("%s", s);
+   printf("laptop_ip -- %s", s);
 
    free(s);
 
